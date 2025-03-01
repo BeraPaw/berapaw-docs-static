@@ -1,4 +1,5 @@
 import meta from "../../../pages/_meta.js";
+import contracts_meta from "../../../pages/contracts/_meta.js";
 import lbgt_meta from "../../../pages/lbgt/_meta.js";
 import paw_meta from "../../../pages/paw/_meta.js";
 export const pageMap = [{
@@ -8,6 +9,42 @@ export const pageMap = [{
   route: "/bgtOptimization",
   frontMatter: {
     "sidebarTitle": "Bgtoptimization"
+  }
+}, {
+  name: "contracts",
+  route: "/contracts",
+  children: [{
+    data: contracts_meta
+  }, {
+    name: "beraPawForge",
+    route: "/contracts/beraPawForge",
+    frontMatter: {
+      "sidebarTitle": "Berapawforge"
+    }
+  }, {
+    name: "LBGT",
+    route: "/contracts/LBGT",
+    frontMatter: {
+      "sidebarTitle": "Lbgt"
+    }
+  }, {
+    name: "LBGTWBERAStaking",
+    route: "/contracts/LBGTWBERAStaking",
+    frontMatter: {
+      "sidebarTitle": "Lbgtwberastaking"
+    }
+  }, {
+    name: "stakedLBGT",
+    route: "/contracts/stakedLBGT",
+    frontMatter: {
+      "sidebarTitle": "Stakedlbgt"
+    }
+  }]
+}, {
+  name: "contracts",
+  route: "/contracts",
+  frontMatter: {
+    "sidebarTitle": "Contracts"
   }
 }, {
   name: "index",
