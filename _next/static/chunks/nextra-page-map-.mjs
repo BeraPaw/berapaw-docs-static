@@ -5,6 +5,12 @@ import paw_meta from "../../../pages/paw/_meta.js";
 export const pageMap = [{
   data: meta
 }, {
+  name: "audits",
+  route: "/audits",
+  frontMatter: {
+    "sidebarTitle": "Audits"
+  }
+}, {
   name: "bgtOptimization",
   route: "/bgtOptimization",
   frontMatter: {
