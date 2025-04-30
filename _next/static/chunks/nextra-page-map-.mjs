@@ -88,6 +88,12 @@ export const pageMap = [{
   children: [{
     data: paw_meta
   }, {
+    name: "prePaw",
+    route: "/paw/prePaw",
+    frontMatter: {
+      "sidebarTitle": "Prepaw"
+    }
+  }, {
     name: "tokenomics",
     route: "/paw/tokenomics",
     frontMatter: {
