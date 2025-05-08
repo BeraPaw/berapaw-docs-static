@@ -77,12 +77,6 @@ export const pageMap = [{
     "sidebarTitle": "Lbgt"
   }
 }, {
-  name: "liquidityVault",
-  route: "/liquidityVault",
-  frontMatter: {
-    "sidebarTitle": "Liquidityvault"
-  }
-}, {
   name: "paw",
   route: "/paw",
   children: [{
@@ -105,6 +99,12 @@ export const pageMap = [{
   route: "/paw",
   frontMatter: {
     "sidebarTitle": "Paw"
+  }
+}, {
+  name: "polStrategyVault",
+  route: "/polStrategyVault",
+  frontMatter: {
+    "sidebarTitle": "Polstrategyvault"
   }
 }, {
   name: "protocolOverview",
