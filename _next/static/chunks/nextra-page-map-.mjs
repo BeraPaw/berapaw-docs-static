@@ -2,6 +2,7 @@ import meta from "../../../pages/_meta.js";
 import contracts_meta from "../../../pages/contracts/_meta.js";
 import lbgt_meta from "../../../pages/lbgt/_meta.js";
 import paw_meta from "../../../pages/paw/_meta.js";
+import polStrategyVault_meta from "../../../pages/polStrategyVault/_meta.js";
 export const pageMap = [{
   data: meta
 }, {
@@ -100,6 +101,18 @@ export const pageMap = [{
   frontMatter: {
     "sidebarTitle": "Paw"
   }
+}, {
+  name: "polStrategyVault",
+  route: "/polStrategyVault",
+  children: [{
+    data: polStrategyVault_meta
+  }, {
+    name: "deployedStrategies",
+    route: "/polStrategyVault/deployedStrategies",
+    frontMatter: {
+      "sidebarTitle": "Deployedstrategies"
+    }
+  }]
 }, {
   name: "polStrategyVault",
   route: "/polStrategyVault",
