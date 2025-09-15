@@ -102,6 +102,12 @@ export const pageMap = [{
     "sidebarTitle": "Paw"
   }
 }, {
+  name: "pbera",
+  route: "/pbera",
+  frontMatter: {
+    "sidebarTitle": "Pbera"
+  }
+}, {
   name: "polStrategyVault",
   route: "/polStrategyVault",
   children: [{
